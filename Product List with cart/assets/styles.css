@@ -1,0 +1,245 @@
+@font-face {
+  font-family: 'Red Hat Text';
+  src: url('fonts/RedHatText-VariableFont_wght.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Red Hat Text Bold';
+  src: url('fonts/static/RedHatText-Bold.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Red Hat Text SB';
+  src: url('fonts/static/RedHatText-SemiBold.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+background-color:  hsl(13, 31%, 94%);
+  font-family: 'Red Hat Text';
+  width: 30px;
+
+}
+
+.dessert{
+  font-family: 'Red Hat Text Bold';
+  font-size: 40px;
+  padding-top: 45px;
+  padding-left: 95px;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  padding-left: 80px;
+}
+
+.griditem {
+  font-family: 'Red Hat Text';
+  font-weight: bold;
+  background-color: hsl(13, 31%, 94%);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 16px;
+  text-align: left;
+  border: none;
+}
+
+.mainitem {
+font-family: 'Red Hat Text';
+color: hsl(7, 20%, 60%);
+font-weight: bold;
+font-size: 14px;
+margin-top: -30px;
+}
+
+.info{
+  font-family: 'Red Hat Text';
+  display: block;
+  font-size: 18px;
+  color: hsl(14, 65%, 9%)
+}
+
+.addtocart{
+  font-family: 'Red Hat Text SB';
+  display: block;
+  font-size: 16px;
+}
+
+.price {
+  color: hsl(14, 86%, 42%);
+  font-family: 'Red Hat Text';
+  display: block;
+  font-size: 16px;
+}
+
+img{
+  margin-bottom: 20px;
+  border-radius: 5%;
+  width: 260px;
+
+}
+
+
+
+.yourcart{
+  color: hsl(14, 86%, 42%);
+  font-family: 'Red Hat Text Bold';
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.addeditems{
+  font-family: 'Red Hat Text SB';
+  color: hsl(12, 20%, 44%);
+  text-align: center;
+}
+
+#empty{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.griditem button {
+  border-style: groove;
+  border-color: hsl(14, 25%, 72%);
+  outline: 0;
+  padding: 12px;
+  color: hsl(14, 65%, 9%);
+  background-color: hsl(20, 50%, 98%);
+  text-align: center;
+  cursor: pointer;
+  width: 80%;
+  height: 50%;
+  font-size: 18px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 50px;
+  left: 25px;
+  margin-bottom: -50px;
+}
+
+.price-display{
+  color:  hsl(14, 65%, 9%);
+  text-align: right;
+}
+
+.griditem button:hover{
+  background-color: hsl(22, 62%, 60%);
+}
+
+#carticon{
+  float: left;
+  width: 13%;
+  margin-right: -25px;
+  padding-left: 25px;
+  margin-bottom: -15px;
+}
+.sidenav {
+  width: 300px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 4%;
+}
+
+.yourcart {
+  color: hsl(14, 86%, 42%);
+  font-family: 'Red Hat Text Bold';
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+#cart-items-container {
+  border-top: 1px solid hsl(14, 25%, 72%);
+  padding-top: 10px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.item-name {
+  font-weight: bold;
+}
+
+.item-quantity-price {
+  display: flex;
+  gap: 5px;
+  color: hsl(7, 20%, 60%);
+}
+
+.item-total-price {
+  font-weight: bold;
+}
+
+.remove-item {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cart-total {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: hsl(14, 86%, 42%);
+}
+
+.delivery-note {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+  background-color: hsl(13, 31%, 94%);
+  border-radius: 5%;
+}
+.thisis{
+  text-align: center;
+  font-size: 16px;
+}
+
+.carbonneutral{
+  font-family: 'Red Hat Text Bold';
+}
+
+.confirm-order {
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: hsl(14, 86%, 42%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.confirm-order:hover {
+  background-color: hsl(14, 86%, 50%);
+}
+
+#carbon{
+  width: 10%;
+  padding-top: 15px;
+}
+
